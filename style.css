@@ -1,0 +1,101 @@
+body {
+	/*general font*/
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	font-family: Arial,Helvetica;
+	padding: 0px;
+	margin:0px;
+	background-color: rgba(0,0,0,.9);
+	/*background-image: url(../image/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
+}
+
+nav{
+	background-color: black;
+	color: brown;
+	/*width: 10%;
+	height: 100em;*/
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	transition: background-color 0.5s;
+	
+	/*height: 100%;*/
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+nav ul li:hover{
+	background-color: rgba(0,0,0,.2);
+}
+
+.image-area {
+	background-image: url(../image/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.image-text {
+	color: white;
+	background-color: rgba(0,0,0,.2);
+	font-size: 60px;
+	text-align: center;
+	padding: 50px;
+	font-family: 'Allura', cursive;
+}
+
+.testimonial {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.test-content img{
+	height: 50%;
+	width: 50%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Allura', cursive;
+}
+
+/*footer{
+	background-color:white;
+	margin-bottom: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer ul{
+	list-style-type: none;
+}
+*/
+
+/*responsive*/
+
+@media screen and (min-width: 700px){
+	nav ul{
+		text-align: center;
+	}
+	nav ul li{
+		display: inline-block;
+		border-bottom: :0px;
+	}
+}
